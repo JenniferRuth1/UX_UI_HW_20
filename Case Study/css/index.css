@@ -4,55 +4,130 @@ html{
 body{
     overflow-x:hidden;
 }
+h1 {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 8%;
+}
 #nav {
     height: 92px;
 }
 #logo {
-    float: left;
+    text-align: center;
     width: 90px;
     height: 50%;
     margin-left: 5%;
-    margin-top: -2.5%;
+    margin-top: -2%;
 }
 .nav-item {
-    padding-left: 5%;
+    padding-left: 1%;
 }
 .nav-linkactive {
     color: black !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: x-large;
-    padding-right: 3%;
-    margin-right: 20px;
+    padding-right: 2%;
+    margin-right: 120px;
 }
 .jumbotronjumbotron-fluid {
-    background-color: rgb(44, 43, 43);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .display-4 {
-    justify-content: right;
     color: white;
+    width: 780px;
+    margin-left: auto;
+    margin-top: -20%;
 }
 .lead {
-    justify-content: right;
     color: white;
-}
-#tastee2 {
-    height: 400px;
-    justify-content: left;
-    margin-top: 5%;
-}
-.cardmb-3 {
-    justify-content: center;
-}
-.card-img {
     width: 600px;
-   
+    margin-left: auto;
+    font-size: x-large;
 }
-#about {
-    display: flex;
-    align-content: center;
+#tasteelogo {
+    height: 400px;
+    justify-content: center;
+    padding-bottom: 5%;
 }
-#Research {
-    display: flex;
-    padding-right: 5%;
+.Research {
+    background-color: lightslategray;
+    height: 800px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.carousel-item {
+    height: 800px;
+    width: 50%;
+    justify-content: center;
+    margin-left: 25%; 
+}
+#insights {
+    height: auto;
+    width: 500px;
+    padding-top: 20%;
+}
+#compeditor {
+    height: auto;
+    width: 600px;
+    padding-top: 15%;
+}
+#jmap {
+    height: 790px;
+    width: auto;
+    padding-bottom: 3%;
+}
+#Iterations {
+    background-color: lightslategray;
+    height: 740px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cards {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 600px;
+    margin-left: 12%;
+    background-color: white;
+    margin-top: 1%;
+}
+.card-body {
+    background-color: white;
+    border-radius: 4%;
+}
+.card-text {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+.cardp {
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.card-textp {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.jumbotron {
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.displayp {
+    color: white;
+    text-align: left;
+}
 
-}

@@ -21,7 +21,7 @@ h1 {
     margin-top: -2%;
 }
 .nav-item {
-    padding-left: 1%;
+    padding-left: .5%;
 }
 .nav-linkactive {
     color: black !important;
@@ -31,7 +31,7 @@ h1 {
     margin-right: 120px;
 }
 .jumbotronjumbotron-fluid {
-    background-color: black;
+    background-color: #1D2029;
     display: flex;
     align-items: center;
     margin-left: 5%;
@@ -81,37 +81,34 @@ h1 {
     width: auto;
     padding-bottom: 3%;
 }
-#Iterations {
+.Iterations {
     background-color: lightslategray;
-    height: 740px;
+    height: 820px;
     margin-left: 5%;
     margin-right: 5%;
 }
-.cards {
-    box-sizing: border-box;
-    display: inline-block;
-    height: 600px;
-    margin-left: 12%;
-    background-color: white;
-    margin-top: 1%;
+.ci {
+    height: auto;
+    width: 700px;
+    padding-top: 1%;
+    justify-content: center;
+    margin-left: 29%;
 }
-.card-body {
-    background-color: white;
-    border-radius: 4%;
+#recipes {
+    padding-top: 15%;
 }
-.card-text {
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    font-size: x-large;
+#wireframe {
+    padding-top: 15%;
+}
+#home {
+    padding-top: 15%;
 }
 .cardp {
-    background-color: black;
+    background-color: #1D2029;
     padding-top: 3%;
     padding-bottom: 3%;
     margin-left: 5%;
     margin-right: 5%;
-    
 }
 .card-textp {
     color: white;
@@ -122,12 +119,35 @@ h1 {
     margin-left: 10%;
 }
 .jumbotron {
-    background-color: black;
+    background-color:#1D2029;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 810px;
+}
+#ss {
+    height: auto;
+    width: 300px;
+    padding-top: 1%;
+    justify-content: center;
+    margin-left: 41%;
+}
+#footer {
+    background-color: lightslategray;
+    height: 360px;
     margin-left: 5%;
     margin-right: 5%;
 }
-.displayp {
+.form-group {
+    padding-right: 30%;
+    padding-left: 30%;
     color: white;
-    text-align: left;
 }
 
+.button2 {
+    text-align: center;
+    margin-top: 2.5%;
+}
+.button3 {
+    text-align: center;
+    margin-top: 2.5%;
+}
